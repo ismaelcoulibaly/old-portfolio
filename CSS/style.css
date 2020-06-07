@@ -1,0 +1,89 @@
+
+@font-face{
+  font-family: "123";
+  src: url("/Users/ila/my-portfolio-website/fonts/ProximaNova-Regular.otf");
+}
+ul {
+    list-style-type: none;
+    
+    padding: 100px;
+  }
+  .topnav {
+    background-color:rgb(246, 19, 57);
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    letter-spacing:.17em;
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;    position: relative;
+  }
+
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  .topnav a.active {
+    background-color:burlywood;
+    color: white;
+  }
+  .title{
+font-family:Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;    position: relative;
+    
+    text-align: center;
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+    letter-spacing:.14em;
+    color:white;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: "123";
+    display: inline-block;
+  }
+
+  .part1 p{
+  font-size: 18px;
+  color:rgb(163, 163, 163);
+  letter-spacing: .01em;
+  }
+
+
+  .part2 p{
+  font-size: 18px;
+  color:white;
+  text-transform:uppercase;
+  }
+  
+img{
+  height: 772px;
+  position: relative;
+  margin-left: 350px;
+  
+}
+
+table{
+  margin-left: 300px;
+  margin-top: 100px;
+}
+  .links {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;;
+  }
+
+  .white, .white a {
+    color: #fff;
+  }
+  body{
+    background-color:#3d4245;
+    font-family:"123";
+  }
