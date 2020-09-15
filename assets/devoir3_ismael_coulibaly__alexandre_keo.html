@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animation1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #c27400;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div heigth="60px" width="60px">
+        <svg width="60px" height="60px">
+
+            <rect y="0" height="100%" width="7px" fill="white">  
+                <animate attributeName="height" values="60;10;60" begin="0s"  dur="1s" repeatCount="indefinite" />
+                <animate attributeName="y" values="0;25;0" begin="0s" dur="1s" repeatCount="indefinite" />
+            </rect>
+
+            <rect x="9" y="0" height="100%" width="7px" fill="white">
+                <animate attributeName="height" values="60;10;60" begin="0.1s" dur="1s" repeatCount="indefinite" />
+                <animate attributeName="y" values="0;25;0" begin="0.1s" dur="1s" repeatCount="indefinite" />
+            </rect>
+
+            <rect x="18" y="0" height="100%" width="7px" fill="white">
+                <animate attributeName="height" values="60;10;60" begin="0.2s" dur="1s" repeatCount="indefinite" />
+                <animate attributeName="y" values="0;25;0" begin="0.2s" dur="1s" repeatCount="indefinite"/>
+              </rect>
+              
+              <rect x="27" y="0" height="100%" width="7px" fill="white">
+                <animate attributeName="height" values="60;10;60" begin="0.3s" dur="1s" repeatCount="indefinite" />
+                <animate attributeName="y" values="0;25;0" begin="0.3s" dur="1s" repeatCount="indefinite" />
+              </rect>
+              
+              <rect x="36" y="0" height="100%" width="7px" fill="white">
+                <animate attributeName="height" values="60;10;60" begin="0.4s" dur="1s" repeatCount="indefinite" />
+                <animate attributeName="y" values="0;25;0" begin="0.4s" dur="1s" repeatCount="indefinite" />
+            </rect>
+
+        </svg>
+    </div>
+    
+        <div>
+        <svg width="120" height="30" fill="white">
+            <circle cx="15" cy="15" r="15">
+                <animate attributeName="r" from="15" to="15"
+                begin="0s" dur="1.5s" re
+                         values="0;15;0" repeatCount="indefinite" />
+    
+            </circle>
+            <circle cx="60" cy="15" r="9">
+                <animate attributeName="r" from="9" to="9"
+                         begin="0.25s" dur="1.5s" 
+                         values="0;15;0" repeatCount="indefinite" />
+            </circle>
+            <circle cx="105" cy="15" r="15">
+                <animate attributeName="r" from="15" to="15"
+                         begin="0.5s" dur="1.5s"
+                         values="0;15;0" repeatCount="indefinite" />
+    
+            </circle>
+        </svg>
+
+    </div>
+</body>
+
+</html>
+
