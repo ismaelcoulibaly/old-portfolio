@@ -1,7 +1,8 @@
 
 @font-face{
   font-family: "123";
-  src: url("../fonts/VSFPRODISPLAYBOLD.OTF");
+  src: url("../fonts/VSFPRODISPLAYBOLD.OTF") format(OTF),
+  url('../fonts/FontsFree-Net-SFProDisplay-Regular.ttf') format('ttf');
 }
 
 ul {
